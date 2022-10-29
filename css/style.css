@@ -1,3 +1,31 @@
 h1 {
   color: green;
+  background-color: beige;
+  text-align: center;
+  padding: 1rem;
+}
+
+h1:hover {
+  color:darkgreen;
+  background-color: aliceblue;
+}
+
+/* .nachun {
+  color: purple;
+} */
+
+li:first-of-type {
+  color: purple;
+}
+
+li:nth-of-type(4) {
+  color: goldenrod;
+}
+
+li:last-of-type {
+  color: blue;
+}
+
+body > p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
