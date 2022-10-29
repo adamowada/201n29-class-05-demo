@@ -1,6 +1,8 @@
 'use strict';
 
-// TODO Explain why 
+// The WHY:
+// - To learn how you can invoke a function that returns an array, and treat that expression like the array it returns. For example, referencing an element by index like on line 22
+// - To learn how you can use the return of one function, as the argument (or inputs) to another function invocation. For example, lines 30 & 31 that use the return of twoNumberArray() as the argument for addOneToFirst(), and the return of THAT is the argument to putItInAMessage()
 
 
 console.log('proof of life');
